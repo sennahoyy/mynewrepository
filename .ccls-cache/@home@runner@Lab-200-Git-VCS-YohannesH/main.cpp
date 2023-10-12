@@ -70,7 +70,6 @@ bool compareData(const Data* c1, const Data* c2) {
 
         pos = temp2.find(delimiter);
         temp3 = temp2.substr(0,pos);
-        temp2.erase(0,pos+delimiter.length());
         int x = std::stoi(temp);
         int y = std::stoi(temp2);
       if(x > y){
